@@ -1,0 +1,15 @@
+{
+  "version": 4.0,
+  "atDirectives": [
+    {
+      "name": "@apply",
+      "description": "Use the `@apply` directive to inline any existing utility classes into your own custom CSS.",
+      "references": [
+        {
+          "name": "UnoCSS Docs",
+          "url": "https://unocss.dev/transformers/directives"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@pasta/logger",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "@pasta/env": "workspace:*",
+    "picocolors": "1.1.1"
+  }
+}
