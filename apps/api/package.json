@@ -2,6 +2,9 @@
   "name": "@pasta/api",
   "type": "module",
   "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
   "scripts": {},
   "dependencies": {
     "@hono/node-server": "^1.19.9",
