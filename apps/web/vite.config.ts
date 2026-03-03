@@ -5,6 +5,16 @@ import unocss from 'unocss/vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default {
+  server: {
+    port: 5173,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/api/, ''),
+      },
+    },
+  },
   plugins: [
     tsconfigPaths(),
     unocss(),

@@ -1,0 +1,15 @@
+{
+  "name": "@pasta/server",
+  "type": "module",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "@hono/node-server": "^1.19.9",
+    "@pasta/api": "workspace:*",
+    "@pasta/env": "workspace:*",
+    "@pasta/logger": "workspace:*",
+    "@pasta/web": "workspace:*",
+    "hono": "catalog:",
+    "react-router": "catalog:"
+  }
+}

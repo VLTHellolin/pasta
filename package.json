@@ -8,6 +8,9 @@
   "license": "AGPL-3.0-only",
   "scripts": {
     "prepare": "husky",
+    "dev": "nx run-many -t dev",
+    "build": "nx run-many -t build",
+    "start": "nx start server",
     "lint": "eslint --cache .",
     "lint:fix": "eslint --cache --fix .",
     "test": "vitest run",
@@ -21,9 +24,9 @@
     "@types/node": "catalog:",
     "@vitest/browser-playwright": "^4.0.18",
     "@vitest/coverage-v8": "^4.0.18",
-    "eslint": "^9.39.2",
+    "eslint": "^9.39.3",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.7",
+    "lint-staged": "^16.3.1",
     "nx": "^22.5.1",
     "typescript": "catalog:",
     "vitest": "^4.0.18"

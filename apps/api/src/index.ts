@@ -25,4 +25,7 @@ export const createApiInstance = () => {
   return api;
 };
 
+export const api = createApiInstance();
+export default api;
+
 export type ApiType = ReturnType<typeof createApiInstance>;

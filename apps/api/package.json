@@ -7,7 +7,6 @@
   },
   "scripts": {},
   "dependencies": {
-    "@hono/node-server": "^1.19.9",
     "@hono/zod-validator": "^0.7.6",
     "@pasta/db": "workspace:*",
     "@pasta/env": "workspace:*",
@@ -15,10 +14,13 @@
     "better-auth": "catalog:",
     "dotenv": "catalog:",
     "effect": "catalog:",
-    "hono": "^4.12.0",
+    "hono": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@types/node": "catalog:"
+    "@hono/vite-dev-server": "^0.25.0",
+    "@types/node": "catalog:",
+    "vite": "catalog:",
+    "vite-tsconfig-paths": "catalog:"
   }
 }
